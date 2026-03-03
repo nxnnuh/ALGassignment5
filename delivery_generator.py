@@ -38,7 +38,7 @@ def generate_scenarios():
     with open("scenarios/package_prioritization.json", "w") as f:
         json.dump(time_windows, f, indent=2)
     
-    print("  ✓ Generated: scenarios/package_prioritization.json\n")
+    print("   Generated: scenarios/package_prioritization.json\n")
     
     # ========================================================================
     # Scenario 2: Truck Loading (Fractional Knapsack)
@@ -67,7 +67,7 @@ def generate_scenarios():
     with open("scenarios/truck_loading.json", "w") as f:
         json.dump(scenario_data, f, indent=2)
     
-    print("  ✓ Generated: scenarios/truck_loading.json\n")
+    print("   Generated: scenarios/truck_loading.json\n")
     
     # ========================================================================
     # Scenario 3: Driver Assignment (Interval Scheduling)
@@ -91,7 +91,7 @@ def generate_scenarios():
     with open("scenarios/driver_assignment.json", "w") as f:
         json.dump(deliveries, f, indent=2)
     
-    print("  ✓ Generated: scenarios/driver_assignment.json\n")
+    print("  Generated: scenarios/driver_assignment.json\n")
     
     print("="*70)
     print("Scenario generation complete!")
